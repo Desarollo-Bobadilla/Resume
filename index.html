@@ -38,18 +38,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#aboutme"
-                >About Me</a
-              >
+              <a class="nav-link active"href="#aboutme">About Me</a>
             </li>
-            <li class="nav-item" aria-current="page" href="#">
-              <a class="nav-link active">Experice</a>
+            <li class="nav-item">
+              <a class="nav-link active" href="#experience">Experience</a>
             </li>
-            <li class="nav-item" aria-current="page" href="#">
-              <a class="nav-link active" href="#">Projects</a>
+            <li class="nav-item">
+              <a class="nav-link active" href="#projects">Projects</a>
             </li>
-            <li class="nav-item" aria-current="page" href="#">
-              <a class="nav-link active">Hobbies</a>
+            <li class="nav-item">
+              <a class="nav-link active" href="#hobbies">Hobbies</a>
             </li>
           </ul>
         </div>
@@ -69,7 +67,7 @@
 
     <!----------------------------------------------------------------------------------------- ABOUT ME -->
 
-    <div class="aboutme row">
+    <div id = "aboutme" class="aboutme row">
       <div class="col-12">
         <div class="row">
           <div class="col-lg-12 col-sm-12">
@@ -85,9 +83,9 @@
         <br />
         <div class="resume col-lg-6 col-sm-11">
           <p>
-            Seventh semester student of Industrial Engineering and fifth
-            semester of Systems Engineering of the University of the Andes near
-            to completing a double B.Sn. degree. Passionate about the issues of
+            Eighth semester student of Industrial Engineering and sixth semester
+            of Systems Engineering of the University of the Andes near to
+            completing a double B.Sn. degree. Passionate about the issues of
             decision making over time under an optimization framework, and risk
             management in finance context. Known for excellence in quality of
             produced work, interest and drive to work in teams and
@@ -112,7 +110,7 @@
 
     <!----------------------------------------------------------------------------------------- EXPERIENCE -->
 
-    <div class="timeline">
+    <div id = "experience" class="timeline">
       <div class="container">
         <div class="content">
           <h4>
@@ -174,24 +172,28 @@
 
     <!----------------------------------------------------------------------------------------- PROJECTS -->
 
-    <div class="row">
+    <div id = "projects" class="row">
       <div class="col-1"></div>
       <div class="pro col-5">
         <div class="card">
-          <img src="CSS/static/FF.PNG" class="im_t card-img-top" alt="..." />
+          <img src="CSS/static/FF.PNG" class="im_t card-img-top" alt="Father Francis" />
           <div class="card-body">
             <h3 class="card-title">Director Book, Colegio San Carlos</h3>
             <p class="card-text">
               Ideated, coordinated, and brought together the book “Colegio San
-              Carlos, Una Memoria en Construcción”. Link access:
-              https://publicando.publica.la/library
+              Carlos, Una Memoria en Construcción”.
+              <a href="https://publicando.publica.la/library">Link access</a>
+              <hr>
+              <audio controls>
+                <source src="CSS/static/FF.mp3", type="audio/mp3">
+              </audio>
             </p>
           </div>
         </div>
       </div>
       <div class="pro col-5">
         <div class="card">
-          <video autoplay>
+          <video controls>
             <source src="CSS/static/RL.MP4" , type="video/mp4" />
           </video>
           <div class="card-body">
@@ -210,7 +212,7 @@
     <!----------------------------------------------------------------------------------------- HOOBIES -->
 
     <div
-      id="carouselExampleCaptions"
+      id="hobbies"
       class="carousel slide"
       data-bs-ride="carousel"
     >

@@ -24,10 +24,7 @@ body {
 .perfil {
   object-fit: contain;
   margin-top: 15px;
-  margin-left: 25px;
-  max-width: 100%;
-  height: auto;
-  width: auto\9;
+  margin-left: 40px;
   border-radius: 1%;
 }
 
@@ -93,4 +90,8 @@ video .im_t {
 
 .final {
   background-color: rgb(209, 206, 206);
+}
+
+.audio {
+  object-fit: contain;
 }

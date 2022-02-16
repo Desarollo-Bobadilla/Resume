@@ -29,3 +29,4 @@ The principal and more iconic proyects I have been and direct.
 
 ### Hobbies
 The three not academic hobbies of my life. 
+* NOTE: The change of image works with the arrows of the computer, in a not touch screen.
